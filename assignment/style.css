@@ -1,4 +1,9 @@
 /* Add a background color to the header element */
+header {
+    color: black;
+    padding: 2rem 3rem;
+    background-color: lightcoral;
+}
 
 /* Add a fun background color to the main element */
 
