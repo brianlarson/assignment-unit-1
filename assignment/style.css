@@ -1,10 +1,9 @@
-#container {display: none;}
 /* Constrain all elements for wide viewports */
 header > div,
 main > div,
 footer > div {
     margin: 0 auto;
-    max-width: 60rem;
+    max-width: 45rem;
 }
 
 /* Add a background color to the header element */
@@ -39,7 +38,7 @@ header h1 {
 
 /* Make your p tag a different color and italic */
 footer p {
-    color: #58504c;
+    color: #4c4440;
     font-size: 2rem;
     font-style: italic;
     font-weight: bold;
@@ -54,8 +53,10 @@ footer p span {
 
 /* Put a border around your image */
 main img {
-    border: 2px solid white;
+    border: 3px solid #C2DDE2;
     border-radius: 12px;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Change the font-family of your list */
