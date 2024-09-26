@@ -1,4 +1,12 @@
 #container {display: none;}
+/* Constrain all elements for wide viewports */
+header > div,
+main > div,
+footer > div {
+    margin: 0 auto;
+    max-width: 60rem;
+}
+
 /* Add a background color to the header element */
 header {
     padding: 2rem 3rem;

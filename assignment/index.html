@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Change the <title> from "Page Title" to "Hello World" -->
     <title>Hello World</title>
@@ -12,43 +13,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.2.0/mocha.css" integrity="sha512-SjDc34mGAkSBKnNMasz1QPVustFyPQUHUO5wxzGNC5x9wQMcHwDHXCNRYowC/6DsX0lqvpCI1mKiVEQkws2olw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.7/chai.min.js" integrity="sha512-Pwgr3yHn4Gvztp1GKl0ihhAWLZfqgp4/SbMt4HKW7AymuTQODMCNPE7v1uGapTeOoQQ5Hoz367b4seKpx6j7Zg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Link to Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
+    <!-- Link to main css -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
 <body>
-
     <!-- Create a header element  -->
     <header>
         <!-- Inside the header, add an <h1> element containing your name -->
-        <h1>Brian Larson</h1>
-        <p>👋🏻 Hello. I fancy myself to say that I'm a seasoned web developer and designer with 20+ years of experience creating websites for small marketing and digital teams. Skilled in executing client projects from discovery to deployment, with expertise in UI design, responsive frontend coding, and custom CMS integration on various platforms. What do you fancy yourself to say?</p>
+        <div>
+            <h1>Brian Larson</h1>
+            <p>👋🏻 Hello. I fancy myself to say that I'm a seasoned web developer and designer with 20+ years of experience creating websites for small marketing and digital teams. Skilled in executing client projects from discovery to deployment, with expertise in UI design, responsive frontend coding, and custom CMS integration on various platforms. What do you fancy yourself to say?</p>
+        </div>
     </header>
 
     <main>
-        <!-- Include an image -->
-        <img src="img/cute-walruses.jpg" width="536" height="354" alt="A small group of cute walruses in black and white">
+        <div>
+            <!-- Include an image -->
+            <img src="img/cute-walruses.jpg" width="536" height="354" alt="A small group of cute walruses in black and white">
 
-        <!-- Create an unordered list with 3 list items of fun facts about you -->
-        <ul>
-            <li><span>👨🏻</span> I'm 47 years old and I love to sing.</li>
-            <li><span>👧🏼</span> I have 3 kids and their names are Vivian, Franklin and Walter.</li>
-            <li><span>👀</span> My hair isn't thinning but my eyebrows are.</li>
-        </ul>
+            <!-- Create an unordered list with 3 list items of fun facts about you -->
+            <ul>
+                <li><span>👨🏻</span> I'm 47 years old and I love to sing.</li>
+                <li><span>👧🏼</span> I have 3 kids and their names are Vivian, Franklin and Walter.</li>
+                <li><span>👀</span> My hair isn't thinning but my eyebrows are.</li>
+            </ul>
+        </div>
     </main>
 
     <!-- Create a footer element -->
     <footer>
-        <!-- Inside your footer, put a <p> element with your favorite quote -->
-        <p>
-            &ldquo;I have learned silence from the talkative, toleration from the intolerant, and kindness from the unkind; yet, strange, I am ungrateful to those teachers.&rdquo;
-            <span>&mdash; Khalil Gibran</span>
-        </p>
+        <div>
+            <!-- Inside your footer, put a <p> element with your favorite quote -->
+            <p>
+                &ldquo;I have learned silence from the talkative, toleration from the intolerant, and kindness from the unkind; yet, strange, I am ungrateful to those teachers.&rdquo;
+                <span>&mdash; Khalil Gibran</span>
+            </p>
+        </div>
     </footer>
 
     <div id="container">
