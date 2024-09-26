@@ -2,12 +2,12 @@
 header {
     color: black;
     padding: 2rem 3rem;
-    background-color: lightcoral;
+    background-color: #65cbeb;
 }
 
 /* Add a fun background color to the main element */
 main {
-    background-color: darkolivegreen;
+    background-color: #6b665d;
     padding: 2rem 3rem;
 }
 
@@ -17,11 +17,8 @@ header h1 {
 }
 
 /* Make your p tag a different color and italic */
-footer {
-    padding: 2rem 3rem;
-}
 footer p {
-    color: lightblue;
+    color: #58504c;
     font-size: 2rem;
     font-style: italic;
     font-weight: bold;
@@ -55,5 +52,9 @@ main ul span {
 
 /* Add a background color to the footer element */
 footer {
-    background-color: black;
+    background-color: #ebbb65;
+    padding: 2rem 3rem;
+}
+footer span {
+    margin: 1rem 1rem 0 1rem;
 }
