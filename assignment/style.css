@@ -17,17 +17,18 @@ header h1 {
 }
 
 /* Make your p tag a different color and italic */
+footer {
+    padding: 2rem 3rem;
+}
 footer p {
     color: lightblue;
     font-size: 2rem;
     font-style: italic;
     font-weight: bold;
-    padding: 2rem 3rem;
     line-height: 1.4;
 }
 footer p span {
     display: block;
-    margin-top: 1rem;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: normal;
@@ -53,3 +54,6 @@ main ul span {
 }
 
 /* Add a background color to the footer element */
+footer {
+    background-color: black;
+}
