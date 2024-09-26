@@ -34,6 +34,10 @@ footer p span {
 }
 
 /* Put a border around your image */
+main img {
+    border: 2px solid white;
+    border-radius: 12px;
+}
 
 /* Change the font-family of your list */
 
